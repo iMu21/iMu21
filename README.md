@@ -25,18 +25,20 @@ I build enterprise **.NET / Angular** systems for international clients by day, 
 
 ### Professional Work · Brain Station 23 · since July 2022
 
-| Project | Client | Domain | Stack | Timeframe |
+> Three years of ASP.NET Core in production for clients in three countries. Insurance, law enforcement, logistics — pick your favourite synonym for "unsexy but mission-critical."
+
+| Project | Client | What it actually does | Stack | When |
 |---|---|---|---|---|
-| **Law Enforcement Case Management** | Stella International (USA) | Case & evidence tracking | ASP.NET Core · MVC · EF Core · SQL Server · Angular · XUnit · GH Actions | Oct 2025 – present |
-| **Invoice Management System** | Stella International (USA) | Billing & invoicing for logistics | ASP.NET Core · EF Core · SQL Server · Angular · GH Actions | Jun 2025 – present |
-| **Guardian Life App** | Guardian Life Insurance (BD) | Policy & claims management | ASP.NET Core · Angular · SQL Server | Sep 2024 – May 2025 |
-| **Claims Integrated Care System** | MetLife (BD) | Insurance claims lifecycle | ASP.NET Core · EF Core · SQL Server · Angular | Nov 2022 – Aug 2024 |
+| **Law Enforcement Case Management** | Stella International (USA) | Cases, evidence, and chain-of-custody — modeled the way they need to be when "it works on my machine" doesn't fly in court. | ASP.NET Core · MVC · EF Core · SQL Server · Angular · XUnit · GH Actions | Oct 2025 – present |
+| **Invoice Management System** | Stella International (USA) | Yes, the world needed *one more* invoicing system for logistics. This one has pagination, search, and an audit trail. | ASP.NET Core · EF Core · SQL Server · Angular · GH Actions | Jun 2025 – present |
+| **Guardian Life App** | Guardian Life Insurance (BD) | Policies and claims for people who'd really rather not be filing one. UX matters more here than the architecture diagram. | ASP.NET Core · Angular · SQL Server | Sep 2024 – May 2025 |
+| **Claims Integrated Care System** | MetLife (BD) | The full insurance-claim lifecycle as a C# state machine — turns out "awaiting review" is a non-trivial engineering problem once you scale it. | ASP.NET Core · EF Core · SQL Server · Angular | Nov 2022 – Aug 2024 |
 
 ---
 
 ### After-hours Architecture · Multi-tenant Real-Estate Platform
 
-A self-directed playground where I take the architecture as far as I want it.
+> A side project that escaped containment. Started as "a website to find apartments" and is now six microservices behind a YARP gateway, a Flutter app, SignalR over Redis, FCM with deep links, and Elasticsearch. Could it have been a monolith? Yes. Is it? No.
 
 ```
                    ┌──────────────────── Angular Admin / Public Web ───────────────────┐
@@ -53,11 +55,11 @@ A self-directed playground where I take the architecture as far as I want it.
                             PostgreSQL · Redis · Hangfire · Docker
 ```
 
-- **6-service .NET backend** behind a YARP gateway with role-aware routing and per-cluster health checks.
-- **Multi-tenant + branch-scoped RBAC** with custom JWT claim transformation, soft-delete + audit trail across every entity.
-- **Real-time** — SignalR chat over a Redis backplane, FCM push with a per-device token registry and deep-link routing.
-- **Live agent ops** — geolocation tracking with offline batch sync, GPS-verified visit logs, 7-stage CRM lead pipeline.
-- **Three frontends** — Angular web (admin + public), Flutter agent mobile app sharing the same gateway.
+- **Six .NET services** behind a YARP gateway with role-aware routing and per-cluster health checks. Five too many for the use case, exactly the right number for the learning curve.
+- **Multi-tenant + branch-scoped RBAC** with a custom JWT claim transformer, because every service had its own opinion about whether the role is `BranchAgent`, `branch_agent`, or `agent`. Now they all agree.
+- **Real-time stack** — SignalR chat over a Redis backplane, plus a per-device FCM token registry that actually deactivates dead tokens instead of pretending. Notifications carry `entityType`/`entityId`/`deepLink` so taps land on the right screen.
+- **Live agent ops** — GPS-verified visit logs (because "I was there, trust me" doesn't pass code review), offline-buffered location batch sync, and a 7-stage CRM lead pipeline that refuses to let you skip stages just because the deal's hot.
+- **Three frontends, one gateway** — Angular admin & public web, Flutter agent mobile. They all complain to the same auth service in the same way, which is the whole point.
 
 ---
 
