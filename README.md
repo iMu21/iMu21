@@ -25,14 +25,16 @@ I build enterprise **.NET / Angular** systems for international clients by day, 
 
 ### Professional Work · Brain Station 23 · since July 2022
 
-> Three years of ASP.NET Core in production for clients in three countries. Insurance, law enforcement, logistics — pick your favourite synonym for "unsexy but mission-critical." Click any banner to peek inside.
+> Three years of ASP.NET Core in production for clients in three countries. Insurance, law enforcement, logistics — pick your favourite synonym for "unsexy but mission-critical."
 
-<details>
+<details open>
 <summary>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:002171,100:003D7A&height=70&text=Law%20Enforcement%20Case%20Management&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Law Enforcement Case Management" />
 </summary>
 
-<br/>
+<table>
+<tr>
+<td valign="top" width="60%">
 
 **Stella International (USA)** · Oct 2025 – present
 
@@ -48,14 +50,23 @@ Cases, evidence, and chain-of-custody — modeled the way they need to be when *
 <img src="https://img.shields.io/badge/-GH%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
 </p>
 
+</td>
+<td valign="top" width="40%" align="center">
+  <img src="https://api.memegen.link/images/drake/It_works_on_my_machine/Chain_of_custody_with_timestamps.png?width=320" alt="drake meme: rejecting 'it works on my machine', preferring chain-of-custody with timestamps" />
+</td>
+</tr>
+</table>
+
 </details>
 
-<details>
+<details open>
 <summary>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:BF360C,100:FF6F00&height=70&text=Invoice%20Management%20System&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Invoice Management System" />
 </summary>
 
-<br/>
+<table>
+<tr>
+<td valign="top" width="60%">
 
 **Stella International (USA)** · Jun 2025 – present
 
@@ -69,14 +80,23 @@ Yes, the world needed *one more* invoicing system for logistics. This one has pa
 <img src="https://img.shields.io/badge/-GH%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
 </p>
 
+</td>
+<td valign="top" width="40%" align="center">
+  <img src="https://api.memegen.link/images/drake/Spreadsheets_via_Outlook/Pagination_and_audit_trails.png?width=320" alt="drake meme: rejecting spreadsheets via Outlook, preferring pagination and audit trails" />
+</td>
+</tr>
+</table>
+
 </details>
 
-<details>
+<details open>
 <summary>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1B5E20,100:43A047&height=70&text=Guardian%20Life%20App&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Guardian Life App" />
 </summary>
 
-<br/>
+<table>
+<tr>
+<td valign="top" width="60%">
 
 **Guardian Life Insurance (BD)** · Sep 2024 – May 2025
 
@@ -88,14 +108,23 @@ Policies and claims for people who'd really rather not be filing one. UX matters
 <img src="https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
 </p>
 
+</td>
+<td valign="top" width="40%" align="center">
+  <img src="https://api.memegen.link/images/drake/Filing_a_claim_by_phone/Two_clicks_in_the_app.png?width=320" alt="drake meme: rejecting filing a claim by phone, preferring two clicks in the app" />
+</td>
+</tr>
+</table>
+
 </details>
 
-<details>
+<details open>
 <summary>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0033A0,100:1976D2&height=70&text=Claims%20Integrated%20Care%20System&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Claims Integrated Care System" />
 </summary>
 
-<br/>
+<table>
+<tr>
+<td valign="top" width="60%">
 
 **MetLife (BD)** · Nov 2022 – Aug 2024
 
@@ -107,6 +136,13 @@ The full insurance-claim lifecycle as a C# state machine — turns out *"awaitin
 <img src="https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
 <img src="https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
 </p>
+
+</td>
+<td valign="top" width="40%" align="center">
+  <img src="https://api.memegen.link/images/drake/Pending_as_a_verb/Pending_as_an_enum.png?width=320" alt="drake meme: rejecting 'pending' as a verb, preferring 'pending' as an enum" />
+</td>
+</tr>
+</table>
 
 </details>
 
