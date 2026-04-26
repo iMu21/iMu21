@@ -13,15 +13,15 @@
   <img src="https://img.shields.io/badge/Open%20to%20Work-2EA44F?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
+<br/>
+
+**i build** distributed systems &nbsp;·&nbsp; **and overthink** monoliths &nbsp;·&nbsp; **and feed** three loud birds
+
 </div>
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:512BD4,100:7E57C2&height=80&text=About&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="About" />
-</div>
-
-<br/>
+## About
 
 I build **enterprise .NET / Angular** systems for international clients by day, and a multi-service distributed real-estate platform on my own time. Three years at **Brain Station 23**, four delivered products across **insurance, law enforcement, and logistics** — and a self-directed architecture that goes further than any single client brief lets me.
 
@@ -250,9 +250,7 @@ Soft-delete + audit trail across every entity, jsonb columns for flexible per-re
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:212121,100:455A64&height=80&text=Status%20Report&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Status Report" />
-</div>
+## Status Report
 
 ```text
 ═══════════════════════════════ status ═══════════════════════════════
@@ -275,9 +273,7 @@ Soft-delete + audit trail across every entity, jsonb columns for flexible per-re
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:283593,100:5C6BC0&height=80&text=Tech%20Stack&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Tech Stack" />
-</div>
+## Tech Stack
 
 <div align="center">
 
@@ -321,11 +317,9 @@ Soft-delete + audit trail across every entity, jsonb columns for flexible per-re
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1A237E,100:5C6BC0&height=80&text=Public%20Repos&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Public Repos" />
-  <br/>
-  <em>Smaller projects that show how I think about backend fundamentals.</em>
-</div>
+## Public Repos
+
+*Smaller projects that show how I think about backend fundamentals.*
 
 <br/>
 
@@ -376,9 +370,7 @@ Personal-finance app on ASP.NET Core MVC + EF Core + Identity.
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:E65100,100:FFB300&height=80&text=Highlights&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Highlights" />
-</div>
+## Highlights
 
 <br/>
 
@@ -407,21 +399,13 @@ insurance · law enforcement<br/>· logistics — same .NET stack
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:AD1457,100:F06292&height=80&text=Off%20the%20Keyboard&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Off the Keyboard" />
-</div>
-
-<br/>
+## Off the Keyboard
 
 When the IDE is closed: I'm probably **playing video games**, **looking after my birds**, or grinding another Codeforces round. Hobbies are part of the engineer — pattern-spotting in a competitive-programming problem and pattern-spotting in your aviary aren't as different as they look.
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1B5E20,100:66BB6A&height=80&text=Education&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Education" />
-</div>
-
-<br/>
+## Education
 
 **B.Sc. in Computer Science & Engineering** — Patuakhali Science & Technology University · 2017 – 2022.
 
@@ -438,6 +422,10 @@ When the IDE is closed: I'm probably **playing video games**, **looking after my
 <a href="mailto:mdimrankhan.imu21@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 <br/><br/>
+
+<sub><i>~ written in Markdown · debugged in production · last patched whenever ~</i></sub>
+
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:DD0031,100:512BD4&height=120&section=footer" alt="footer" />
 
