@@ -23,7 +23,7 @@ I build enterprise **.NET / Angular** systems for international clients by day, 
 
 ---
 
-### Professional Work · Brain Station 23 · since July 2022
+## Professional Work · Brain Station 23 · since July 2022
 
 > Three years of ASP.NET Core in production for clients in three countries. Insurance, law enforcement, logistics — pick your favourite synonym for "unsexy but mission-critical."
 
@@ -34,7 +34,7 @@ I build enterprise **.NET / Angular** systems for international clients by day, 
 </td>
 <td valign="top">
 
-#### Law Enforcement Case Management
+### ▍ Law Enforcement Case Management
 **Stella International (USA)** · Oct 2025 – present
 
 Cases, evidence, and chain-of-custody — modeled the way they need to be when *"it works on my machine"* doesn't fly in court.
@@ -59,7 +59,7 @@ Cases, evidence, and chain-of-custody — modeled the way they need to be when *
 </td>
 <td valign="top">
 
-#### Invoice Management System
+### ▍ Invoice Management System
 **Stella International (USA)** · Jun 2025 – present
 
 Yes, the world needed *one more* invoicing system for logistics. This one has pagination, search, and an audit trail — the trifecta of "boring features that ship."
@@ -83,7 +83,7 @@ Yes, the world needed *one more* invoicing system for logistics. This one has pa
 </td>
 <td valign="top">
 
-#### Guardian Life App
+### ▍ Guardian Life App
 **Guardian Life Insurance (BD)** · Sep 2024 – May 2025
 
 Policies and claims for people who'd really rather not be filing one. UX matters more here than the architecture diagram — every extra click is a small failure.
@@ -105,7 +105,7 @@ Policies and claims for people who'd really rather not be filing one. UX matters
 </td>
 <td valign="top">
 
-#### Claims Integrated Care System
+### ▍ Claims Integrated Care System
 **MetLife (BD)** · Nov 2022 – Aug 2024
 
 The full insurance-claim lifecycle as a C# state machine — turns out *"awaiting review"* is a non-trivial engineering problem once you scale it past a spreadsheet.
@@ -123,7 +123,7 @@ The full insurance-claim lifecycle as a C# state machine — turns out *"awaitin
 
 ---
 
-### After-hours Architecture · Multi-tenant Real-Estate Platform
+## After-hours Architecture · Multi-tenant Real-Estate Platform
 
 > A side project that escaped containment. Started as "a website to find apartments" and is now six microservices behind a YARP gateway, a Flutter app, SignalR over Redis, FCM with deep links, and Elasticsearch. Could it have been a monolith? Yes. Is it? No.
 
