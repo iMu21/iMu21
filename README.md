@@ -1,43 +1,61 @@
 # Md Imran Khan
 
-Software engineer in Dhaka, Bangladesh. I build distributed backends in .NET and frontends in Angular — most of the work lives in private repos, but the snapshot below is what I do day to day.
+**Senior Software Engineer I** at **Brain Station 23** — Dhaka, Bangladesh
 
-## What I build
+I build enterprise .NET / Angular systems for international clients by day, and multi-service distributed platforms on my own time. Three years at Brain Station 23, four delivered products across insurance, law enforcement, and logistics.
 
-- **Multi-service .NET backends** — ASP.NET Core 8/10, EF Core, PostgreSQL & SQL Server, YARP API gateway, MediatR-based CQRS, Hangfire background jobs.
-- **Real-time features** — SignalR chat & notifications backed by Redis, FCM push, live agent geolocation tracking with offline batch sync.
-- **Multi-tenant SaaS shape** — branch-scoped RBAC with custom JWT claim transformation, soft-delete + audit trail across every entity, jsonb columns for flexible per-record metadata.
-- **Angular frontends** — Angular 18+ standalone components, ng-zorro Ant Design, white-label theming.
-- **Cross-cutting** — Swashbuckle / OpenAPI, FluentValidation, AutoMapper, Docker, integration & unit tests, EF migrations.
+## At work — Brain Station 23 · since July 2022
 
-## Currently
+Each line is a real product I've shipped or am actively shipping for clients:
 
-Lead backend on a multi-tenant real-estate platform. Scope:
+| Project | Client | Domain | Stack | Timeframe |
+|---|---|---|---|---|
+| **Law Enforcement Case Management System** | Stella International (USA) | Case & evidence tracking for LE | ASP.NET Core, ASP.NET MVC, EF Core, SQL Server, Angular, XUnit, GitHub Actions CI/CD | Oct 2025 – present |
+| **Invoice Management System** | Stella International (USA) | Billing & invoicing for logistics | ASP.NET Core, EF Core, SQL Server, Angular, GitHub Actions CI/CD | Jun 2025 – present |
+| **Guardian Life App** | Guardian Life Insurance (BD) | Policy & claims management | ASP.NET Core, Angular, SQL Server | Sep 2024 – May 2025 |
+| **Claims Integrated Care System** | MetLife (BD) | Insurance claims lifecycle | ASP.NET Core, EF Core, SQL Server, Angular | Nov 2022 – Aug 2024 |
 
-- 6 microservices behind a YARP gateway (auth, property, search, interaction, file, marketing) with role-aware routing and per-cluster health checks.
-- Full agent CRM — leads pipeline (7 stages, BR-1 prerequisites), manual-client approval workflow, GPS-verified visit logs, commission tracking.
-- Real-time chat with SignalR + Redis backplane, FCM push with per-device token registry and deep-link routing.
-- Companion Flutter agent mobile app sharing the same backend through the gateway.
+## On the side — multi-tenant real-estate platform
 
-## Selected public work
+A self-directed engineering project where I take the architecture as far as I want it to go:
 
-These are smaller / older projects, but they show how I think about backend fundamentals:
+- **Six-service .NET backend** behind a YARP API gateway — auth, property, search, file, marketing, and an interaction service for chat & notifications.
+- **Multi-tenant + branch-scoped RBAC** with custom JWT claim transformation, soft-delete + audit trail across every entity, jsonb columns for flexible per-record metadata.
+- **Real-time** — SignalR chat over a Redis backplane, FCM push notifications with a per-device token registry and deep-link routing into the app.
+- **Live agent operations** — geolocation tracking with offline batch sync, GPS-verified visit logs, and a 7-stage CRM lead pipeline with manual-client approval workflow.
+- **Three frontends** — Angular web app (admin + public listings), Flutter mobile app for agents.
+- **Search** powered by Elasticsearch; background jobs on Hangfire; everything containerized with Docker.
 
-- **[CQRSOrderManagement](https://github.com/iMu21/CQRSOrderManagement)** — hand-rolled CQRS dispatcher in .NET, no MediatR. Useful for understanding what the framework actually does for you.
-- **[AuthShield](https://github.com/iMu21/AuthShield)** — clean-architecture starter for JWT auth + identity, MediatR-based.
-- **[ApiChangeTracker](https://github.com/iMu21/ApiChangeTracker)** — small console tool that hashes a Swagger doc on a schedule and only snapshots when the surface actually changes.
-- **[Competitive-Programming](https://github.com/iMu21/Competitive-Programming)** — 1,651 problems solved across LeetCode and Codeforces.
+## Public repos — fundamentals & smaller demos
+
+- **[CQRSOrderManagement](https://github.com/iMu21/CQRSOrderManagement)** — order pipeline with a hand-rolled CQRS dispatcher (no MediatR). Built to understand what the framework actually does for you.
+- **[AuthShield](https://github.com/iMu21/AuthShield)** — clean-architecture .NET 8 starter for JWT auth & identity, MediatR-based.
+- **[ApiChangeTracker](https://github.com/iMu21/ApiChangeTracker)** — small console tool that hashes a Swagger doc on a schedule and only snapshots when the surface changes.
+- **[Competitive-Programming](https://github.com/iMu21/Competitive-Programming)** — 1,500+ problems across LeetCode and Codeforces.
+- **[CLiCSForecast](https://github.com/iMu21/CLiCSForecast)** — applying data analysis & ML over CLiCS data (Jupyter).
+- **[ExpenseTracker](https://github.com/iMu21/ExpenseTracker)** — personal-finance app on ASP.NET Core MVC + EF Core + Identity.
 
 ## Stack
 
-| Backend | Frontend | Patterns / Infra |
-|---|---|---|
-| ASP.NET Core, C# | Angular, TypeScript | CQRS, microservices, YARP |
-| EF Core, MediatR | Ng-Zorro Ant Design | RabbitMQ, Redis, SignalR |
-| PostgreSQL, SQL Server | RxJS | Hangfire, Docker |
+| Backend | Frontend | Data | Patterns / Infra |
+|---|---|---|---|
+| ASP.NET Core, C# | Angular, TypeScript | SQL Server, PostgreSQL | CQRS, microservices, YARP gateway |
+| EF Core, MediatR | Ng-Zorro Ant Design | Redis, Elasticsearch | RabbitMQ, SignalR, FCM |
+| Hangfire, Swashbuckle | RxJS | jsonb metadata | Docker, GitHub Actions, XUnit |
+| Flutter (Dart) for mobile | | | Agile / Scrum |
 
-Also Python (data work in Jupyter) and C++ for competitive programming.
+Also Python (Jupyter) and C++ (competitive programming).
+
+## Highlights
+
+- **Champion** — PSTU Intra University Programming Contest, Season 2.
+- **1,500+** algorithmic problems solved across LeetCode and Codeforces.
+- Three-domain experience inside a single role: **insurance** (MetLife, Guardian Life), **law enforcement** (Stella International), and **logistics** (Stella International).
+
+## Education
+
+**B.Sc. in Computer Science & Engineering** — Patuakhali Science & Technology University · 2017 – 2022.
 
 ## Connect
 
-Open to interesting backend / full-stack work. Reach me at [`@iMu21`](https://github.com/iMu21).
+[`@iMu21`](https://github.com/iMu21) on GitHub. Open to interesting backend / full-stack work.
