@@ -27,10 +27,7 @@ I build enterprise **.NET / Angular** systems for international clients by day, 
 
 > Three years of ASP.NET Core in production for clients in three countries. Insurance, law enforcement, logistics — pick your favourite synonym for "unsexy but mission-critical."
 
-<details open>
-<summary>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:002171,100:003D7A&height=70&text=Law%20Enforcement%20Case%20Management&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Law Enforcement Case Management" />
-</summary>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:002171,100:003D7A&height=70&text=Law%20Enforcement%20Case%20Management&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Law Enforcement Case Management" />
 
 <table>
 <tr>
@@ -52,17 +49,12 @@ Cases, evidence, and chain-of-custody — modeled the way they need to be when *
 
 </td>
 <td valign="top" width="40%" align="center">
-  <img src="https://api.memegen.link/images/drake/It_works_on_my_machine/Chain_of_custody_with_timestamps.png?width=320" alt="drake meme: rejecting 'it works on my machine', preferring chain-of-custody with timestamps" />
+  <img src="https://api.memegen.link/images/drake/It_works_on_my_machine/Chain_of_custody_with_timestamps.png?width=400" height="160" alt="drake meme: rejecting 'it works on my machine', preferring chain-of-custody with timestamps" />
 </td>
 </tr>
 </table>
 
-</details>
-
-<details open>
-<summary>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:BF360C,100:FF6F00&height=70&text=Invoice%20Management%20System&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Invoice Management System" />
-</summary>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:BF360C,100:FF6F00&height=70&text=Invoice%20Management%20System&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Invoice Management System" />
 
 <table>
 <tr>
@@ -82,17 +74,12 @@ Yes, the world needed *one more* invoicing system for logistics. This one has pa
 
 </td>
 <td valign="top" width="40%" align="center">
-  <img src="https://api.memegen.link/images/drake/Spreadsheets_via_Outlook/Pagination_and_audit_trails.png?width=320" alt="drake meme: rejecting spreadsheets via Outlook, preferring pagination and audit trails" />
+  <img src="https://api.memegen.link/images/drake/Spreadsheets_via_Outlook/Pagination_and_audit_trails.png?width=400" height="160" alt="drake meme: rejecting spreadsheets via Outlook, preferring pagination and audit trails" />
 </td>
 </tr>
 </table>
 
-</details>
-
-<details open>
-<summary>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1B5E20,100:43A047&height=70&text=Guardian%20Life%20App&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Guardian Life App" />
-</summary>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1B5E20,100:43A047&height=70&text=Guardian%20Life%20App&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Guardian Life App" />
 
 <table>
 <tr>
@@ -110,17 +97,12 @@ Policies and claims for people who'd really rather not be filing one. UX matters
 
 </td>
 <td valign="top" width="40%" align="center">
-  <img src="https://api.memegen.link/images/drake/Filing_a_claim_by_phone/Two_clicks_in_the_app.png?width=320" alt="drake meme: rejecting filing a claim by phone, preferring two clicks in the app" />
+  <img src="https://api.memegen.link/images/drake/Filing_a_claim_by_phone/Two_clicks_in_the_app.png?width=400" height="160" alt="drake meme: rejecting filing a claim by phone, preferring two clicks in the app" />
 </td>
 </tr>
 </table>
 
-</details>
-
-<details open>
-<summary>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0033A0,100:1976D2&height=70&text=Claims%20Integrated%20Care%20System&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Claims Integrated Care System" />
-</summary>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0033A0,100:1976D2&height=70&text=Claims%20Integrated%20Care%20System&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Claims Integrated Care System" />
 
 <table>
 <tr>
@@ -139,12 +121,10 @@ The full insurance-claim lifecycle as a C# state machine — turns out *"awaitin
 
 </td>
 <td valign="top" width="40%" align="center">
-  <img src="https://api.memegen.link/images/drake/Pending_as_a_verb/Pending_as_an_enum.png?width=320" alt="drake meme: rejecting 'pending' as a verb, preferring 'pending' as an enum" />
+  <img src="https://api.memegen.link/images/drake/Pending_as_a_verb/Pending_as_an_enum.png?width=400" height="160" alt="drake meme: rejecting 'pending' as a verb, preferring 'pending' as an enum" />
 </td>
 </tr>
 </table>
-
-</details>
 
 ---
 
