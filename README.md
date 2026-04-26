@@ -40,19 +40,50 @@ I build enterprise **.NET / Angular** systems for international clients by day, 
 
 > A side project that escaped containment. Started as "a website to find apartments" and is now six microservices behind a YARP gateway, a Flutter app, SignalR over Redis, FCM with deep links, and Elasticsearch. Could it have been a monolith? Yes. Is it? No.
 
-```
-                   ┌──────────────────── Angular Admin / Public Web ───────────────────┐
-                   │                                                                    │
-                   │              Flutter Agent Mobile App ←──────────┐                 │
-                   │                                                  │                 │
-                   ▼                                                  ▼                 │
-        ┌──────────────────────────  YARP API Gateway  ──────────────────────────┐     │
-        │                                                                          │     │
-        ▼          ▼          ▼               ▼              ▼              ▼     │     │
-   AuthService  Property   Search          Interaction      File         Marketing │
-   (JWT, RBAC) Service  (Elasticsearch) (SignalR + FCM)   Service       Service   │
-                                                                                   │
-                            PostgreSQL · Redis · Hangfire · Docker
+```mermaid
+flowchart TB
+    Web["Angular Web<br/>admin + public"]
+    Mobile["Flutter Agent App"]
+
+    Gateway["YARP Gateway<br/>'the bouncer with role-aware routing'"]
+
+    Auth["AuthService<br/>JWT · RBAC · claim transformer"]
+    Property["PropertyService<br/>listings · leads · visits · CRM"]
+    Search["SearchService<br/>Elasticsearch-powered"]
+    Interaction["InteractionService<br/>SignalR · FCM · chat"]
+    File["FileService<br/>uploads, very 2014 of us"]
+    Marketing["MarketingService<br/>branding · newsletter"]
+
+    PG[("PostgreSQL<br/>+ jsonb where I got lazy")]
+    Redis[("Redis<br/>backplane + cache")]
+    ES[("Elasticsearch")]
+
+    Web --> Gateway
+    Mobile --> Gateway
+
+    Gateway --> Auth
+    Gateway --> Property
+    Gateway --> Search
+    Gateway --> Interaction
+    Gateway --> File
+    Gateway --> Marketing
+
+    Auth --> PG
+    Property --> PG
+    Marketing --> PG
+    File -.-> PG
+    Interaction --> Redis
+    Interaction -.-> PG
+    Search --> ES
+
+    classDef fe fill:#DD0031,stroke:#fff,color:#fff
+    classDef gw fill:#512BD4,stroke:#fff,color:#fff
+    classDef svc fill:#1B6EC2,stroke:#fff,color:#fff
+    classDef data fill:#336791,stroke:#fff,color:#fff
+    class Web,Mobile fe
+    class Gateway gw
+    class Auth,Property,Search,Interaction,File,Marketing svc
+    class PG,Redis,ES data
 ```
 
 - **Six .NET services** behind a YARP gateway with role-aware routing and per-cluster health checks. Five too many for the use case, exactly the right number for the learning curve.
@@ -60,6 +91,29 @@ I build enterprise **.NET / Angular** systems for international clients by day, 
 - **Real-time stack** — SignalR chat over a Redis backplane, plus a per-device FCM token registry that actually deactivates dead tokens instead of pretending. Notifications carry `entityType`/`entityId`/`deepLink` so taps land on the right screen.
 - **Live agent ops** — GPS-verified visit logs (because "I was there, trust me" doesn't pass code review), offline-buffered location batch sync, and a 7-stage CRM lead pipeline that refuses to let you skip stages just because the deal's hot.
 - **Three frontends, one gateway** — Angular admin & public web, Flutter agent mobile. They all complain to the same auth service in the same way, which is the whole point.
+
+---
+
+### Status Report
+
+```text
+═══════════════════════════════ status ═══════════════════════════════
+  Years at Brain Station 23 ......... 3  (and counting)
+  Production projects shipped ....... 4  (insurance × 2 · LE · logistics)
+  Countries billed in ............... 3  (BD · USA · the cloud)
+  Microservices in side-project ..... 6  (five too many — on purpose)
+  Languages on the daily ............ 3  (C# · TypeScript · Dart)
+  Codeforces / LeetCode problems .. 1500+ (some of them on the first try)
+  Programming-contest titles ........ 1  (PSTU Intra-Univ. Champion · S2)
+  Birds in the household ............ 3  (loud · opinionated · unbothered)
+
+  Currently shipping ................ Stella · Law Enforcement Cases
+  Currently shipping ................ Stella · Logistics Invoicing
+  Currently architecting (for fun) .. Real-estate platform v∞
+  Currently grinding ................ another Codeforces round
+  Currently caffeinated ............. yes
+═══════════════════════════════════════════════════════════════════════
+```
 
 ---
 
