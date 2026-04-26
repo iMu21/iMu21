@@ -105,22 +105,6 @@ A self-directed playground where I take the architecture as far as I want it.
 
 ---
 
-### GitHub at a Glance
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=iMu21&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=480" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iMu21&layout=compact&theme=tokyonight&hide_border=true&card_width=480&langs_count=8" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=iMu21&theme=tokyonight&hide_border=true&card_width=480" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=iMu21&theme=tokyo-night&hide_border=true&area=true&radius=8" />
-
-</div>
-
----
-
 ### Public Repos · Fundamentals
 
 - **[CQRSOrderManagement](https://github.com/iMu21/CQRSOrderManagement)** — order pipeline with a hand-rolled CQRS dispatcher, no MediatR.
