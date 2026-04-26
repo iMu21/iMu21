@@ -27,6 +27,8 @@ I build enterprise **.NET / Angular** systems for international clients by day, 
 
 > Three years of ASP.NET Core in production for clients in three countries. Insurance, law enforcement, logistics — pick your favourite synonym for "unsexy but mission-critical."
 
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:002171,100:003D7A&height=70&text=Law%20Enforcement%20Case%20Management&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Law Enforcement Case Management" />
+
 <table>
 <tr>
 <td width="240" align="center" valign="middle">
@@ -34,7 +36,6 @@ I build enterprise **.NET / Angular** systems for international clients by day, 
 </td>
 <td valign="top">
 
-### ▍ Law Enforcement Case Management
 **Stella International (USA)** · Oct 2025 – present
 
 Cases, evidence, and chain-of-custody — modeled the way they need to be when *"it works on my machine"* doesn't fly in court.
@@ -52,6 +53,8 @@ Cases, evidence, and chain-of-custody — modeled the way they need to be when *
 </tr>
 </table>
 
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:BF360C,100:FF6F00&height=70&text=Invoice%20Management%20System&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Invoice Management System" />
+
 <table>
 <tr>
 <td width="240" align="center" valign="middle">
@@ -59,7 +62,6 @@ Cases, evidence, and chain-of-custody — modeled the way they need to be when *
 </td>
 <td valign="top">
 
-### ▍ Invoice Management System
 **Stella International (USA)** · Jun 2025 – present
 
 Yes, the world needed *one more* invoicing system for logistics. This one has pagination, search, and an audit trail — the trifecta of "boring features that ship."
@@ -76,6 +78,8 @@ Yes, the world needed *one more* invoicing system for logistics. This one has pa
 </tr>
 </table>
 
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1B5E20,100:43A047&height=70&text=Guardian%20Life%20App&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Guardian Life App" />
+
 <table>
 <tr>
 <td width="240" align="center" valign="middle">
@@ -83,7 +87,6 @@ Yes, the world needed *one more* invoicing system for logistics. This one has pa
 </td>
 <td valign="top">
 
-### ▍ Guardian Life App
 **Guardian Life Insurance (BD)** · Sep 2024 – May 2025
 
 Policies and claims for people who'd really rather not be filing one. UX matters more here than the architecture diagram — every extra click is a small failure.
@@ -98,6 +101,8 @@ Policies and claims for people who'd really rather not be filing one. UX matters
 </tr>
 </table>
 
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0033A0,100:1976D2&height=70&text=Claims%20Integrated%20Care%20System&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Claims Integrated Care System" />
+
 <table>
 <tr>
 <td width="240" align="center" valign="middle">
@@ -105,7 +110,6 @@ Policies and claims for people who'd really rather not be filing one. UX matters
 </td>
 <td valign="top">
 
-### ▍ Claims Integrated Care System
 **MetLife (BD)** · Nov 2022 – Aug 2024
 
 The full insurance-claim lifecycle as a C# state machine — turns out *"awaiting review"* is a non-trivial engineering problem once you scale it past a spreadsheet.
