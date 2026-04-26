@@ -121,7 +121,7 @@ The full insurance-claim lifecycle as a C# state machine — turns out *"awaitin
 
 </td>
 <td valign="top" width="40%" align="center">
-  <img src="https://api.memegen.link/images/drake/Pending_as_a_verb/Pending_as_an_enum.png?width=400" height="160" alt="drake meme: rejecting 'pending' as a verb, preferring 'pending' as an enum" />
+  <img src="https://api.memegen.link/images/drake/Hospital_and_insurer_on_separate_systems/Integrated_care_one_claim_record.png?width=400" height="160" alt="drake meme: rejecting hospital and insurer on separate systems, preferring integrated care with one claim record" />
 </td>
 </tr>
 </table>
