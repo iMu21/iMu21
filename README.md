@@ -54,15 +54,6 @@ flowchart LR
 
 <br/>
 
-## Public Repos
-
-- **[CQRSOrderManagement](https://github.com/iMu21/CQRSOrderManagement)** — hand-rolled CQRS dispatcher in .NET, no MediatR.
-- **[AuthShield](https://github.com/iMu21/AuthShield)** — clean-architecture .NET starter for JWT auth & identity.
-- **[ApiChangeTracker](https://github.com/iMu21/ApiChangeTracker)** — snapshots a Swagger doc only when its hash changes.
-- **[Competitive-Programming](https://github.com/iMu21/Competitive-Programming)** — 1,500+ problems on LeetCode and Codeforces.
-
-<br/>
-
 <div align="center">
 
 <a href="https://github.com/iMu21"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
