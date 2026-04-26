@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,100:DD0031&height=220&section=header&text=Md%20Imran%20Khan&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20Software%20Engineer%20%E2%80%A2%20Brain%20Station%2023&descSize=18&descAlignY=60" alt="banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,100:DD0031&height=240&section=header&text=Md%20Imran%20Khan&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Senior%20Software%20Engineer%20%E2%80%A2%20Brain%20Station%2023%20%E2%80%A2%20Dhaka%2C%20BD&descSize=18&descAlignY=58" alt="banner" />
 
 <a href="https://github.com/iMu21">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=512BD4&center=true&vCenter=true&width=720&lines=Enterprise+%2ENET+by+day%2C+distributed+systems+by+night.;Building+for+MetLife%2C+Guardian+Life%2C+Stella+International.;6-service+real-estate+platform+with+Flutter+%2B+Angular.;1%2C500%2B+competitive-programming+problems+solved." alt="typing intro" />
@@ -17,23 +17,30 @@
 
 ---
 
-### About
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:512BD4,100:7E57C2&height=80&text=About&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="About" />
+</div>
 
-I build enterprise **.NET / Angular** systems for international clients by day, and a multi-service distributed real-estate platform on my own time. Three years at **Brain Station 23**, four delivered products across **insurance, law enforcement, and logistics**.
+<br/>
+
+I build **enterprise .NET / Angular** systems for international clients by day, and a multi-service distributed real-estate platform on my own time. Three years at **Brain Station 23**, four delivered products across **insurance, law enforcement, and logistics** — and a self-directed architecture that goes further than any single client brief lets me.
 
 ---
 
-## Professional Work · Brain Station 23 · since July 2022
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1A237E,100:3949AB&height=80&text=Professional%20Work%20%E2%80%A2%20Brain%20Station%2023&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Professional Work" />
+</div>
 
-> Three years of ASP.NET Core in production for clients in three countries. Insurance, law enforcement, logistics — pick your favourite synonym for "unsexy but mission-critical."
+<br/>
+
+> Three years of ASP.NET Core in production for clients in three countries. Insurance, law enforcement, logistics — pick your favourite synonym for *"unsexy but mission-critical."*
+
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:002171,100:003D7A&height=70&text=Law%20Enforcement%20Case%20Management&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Law Enforcement Case Management" />
 
 <table>
 <tr>
-<td width="240" align="center" valign="middle">
-  <img src="https://api.memegen.link/images/drake/It_works_on_my_machine/Chain_of_custody_with_timestamps.png?width=400" height="180" alt="drake meme" />
-</td>
 <td valign="top">
 
 **Stella International (USA)** · Oct 2025 – present
@@ -50,6 +57,9 @@ Cases, evidence, and chain-of-custody — modeled the way they need to be when *
 </p>
 
 </td>
+<td width="240" align="center" valign="middle">
+  <img src="https://api.memegen.link/images/drake/It_works_on_my_machine/Chain_of_custody_with_timestamps.png?width=400" height="180" alt="drake meme" />
+</td>
 </tr>
 </table>
 
@@ -57,14 +67,11 @@ Cases, evidence, and chain-of-custody — modeled the way they need to be when *
 
 <table>
 <tr>
-<td width="240" align="center" valign="middle">
-  <img src="https://api.memegen.link/images/drake/Spreadsheets_via_Outlook/Pagination_and_audit_trails.png?width=400" height="180" alt="drake meme" />
-</td>
 <td valign="top">
 
 **Stella International (USA)** · Jun 2025 – present
 
-Yes, the world needed *one more* invoicing system for logistics. This one has pagination, search, and an audit trail — the trifecta of "boring features that ship."
+Yes, the world needed *one more* invoicing system for logistics. This one has pagination, search, and an audit trail — the trifecta of *"boring features that ship."*
 
 <p>
 <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
@@ -75,6 +82,9 @@ Yes, the world needed *one more* invoicing system for logistics. This one has pa
 </p>
 
 </td>
+<td width="240" align="center" valign="middle">
+  <img src="https://api.memegen.link/images/drake/Spreadsheets_via_Outlook/Pagination_and_audit_trails.png?width=400" height="180" alt="drake meme" />
+</td>
 </tr>
 </table>
 
@@ -82,9 +92,6 @@ Yes, the world needed *one more* invoicing system for logistics. This one has pa
 
 <table>
 <tr>
-<td width="240" align="center" valign="middle">
-  <img src="https://api.memegen.link/images/drake/Filing_a_claim_by_phone/Two_clicks_in_the_app.png?width=400" height="180" alt="drake meme" />
-</td>
 <td valign="top">
 
 **Guardian Life Insurance (BD)** · Sep 2024 – May 2025
@@ -98,6 +105,9 @@ Policies and claims for people who'd really rather not be filing one. UX matters
 </p>
 
 </td>
+<td width="240" align="center" valign="middle">
+  <img src="https://api.memegen.link/images/drake/Filing_a_claim_by_phone/Two_clicks_in_the_app.png?width=400" height="180" alt="drake meme" />
+</td>
 </tr>
 </table>
 
@@ -105,9 +115,6 @@ Policies and claims for people who'd really rather not be filing one. UX matters
 
 <table>
 <tr>
-<td width="240" align="center" valign="middle">
-  <img src="https://api.memegen.link/images/drake/Hospital_and_insurer_on_separate_systems/Integrated_care_one_claim_record.png?width=400" height="180" alt="drake meme" />
-</td>
 <td valign="top">
 
 **MetLife (BD)** · Nov 2022 – Aug 2024
@@ -122,14 +129,25 @@ The full insurance-claim lifecycle as a C# state machine — turns out *"awaitin
 </p>
 
 </td>
+<td width="240" align="center" valign="middle">
+  <img src="https://api.memegen.link/images/drake/Hospital_and_insurer_on_separate_systems/Integrated_care_one_claim_record.png?width=400" height="180" alt="drake meme" />
+</td>
 </tr>
 </table>
 
 ---
 
-## After-hours Architecture · Multi-tenant Real-Estate Platform
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00695C,100:00BCD4&height=80&text=After-hours%20Architecture&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="After-hours Architecture" />
+  <br/>
+  <em>Multi-tenant Real-Estate Platform · the side project that escaped containment</em>
+</div>
 
-> A side project that escaped containment. Started as "a website to find apartments" and is now six microservices behind a YARP gateway, a Flutter app, SignalR over Redis, FCM with deep links, and Elasticsearch. Could it have been a monolith? Yes. Is it? No.
+<br/>
+
+> Started life as *"a website to find apartments."* Now it's six microservices behind a YARP gateway, a Flutter mobile app, SignalR over Redis, FCM with deep links, and Elasticsearch. Could it have been a monolith? Yes. Is it? No.
+
+<br/>
 
 ```mermaid
 flowchart TB
@@ -177,15 +195,64 @@ flowchart TB
     class PG,Redis,ES data
 ```
 
-- **Six .NET services** behind a YARP gateway with role-aware routing and per-cluster health checks. Five too many for the use case, exactly the right number for the learning curve.
-- **Multi-tenant + branch-scoped RBAC** with a custom JWT claim transformer, because every service had its own opinion about whether the role is `BranchAgent`, `branch_agent`, or `agent`. Now they all agree.
-- **Real-time stack** — SignalR chat over a Redis backplane, plus a per-device FCM token registry that actually deactivates dead tokens instead of pretending. Notifications carry `entityType`/`entityId`/`deepLink` so taps land on the right screen.
-- **Live agent ops** — GPS-verified visit logs (because "I was there, trust me" doesn't pass code review), offline-buffered location batch sync, and a 7-stage CRM lead pipeline that refuses to let you skip stages just because the deal's hot.
-- **Three frontends, one gateway** — Angular admin & public web, Flutter agent mobile. They all complain to the same auth service in the same way, which is the whole point.
+<br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:512BD4,100:7E57C2&height=50&text=Six%20Services%2C%20One%20Gateway&fontSize=18&fontColor=ffffff&fontAlignY=60" alt="" />
+
+YARP gateway with role-aware routing and per-cluster health checks. Five microservices too many for the use case, exactly the right number for the learning curve.
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1B6EC2,100:42A5F5&height=50&text=Multi-tenant%20RBAC&fontSize=18&fontColor=ffffff&fontAlignY=60" alt="" />
+
+Branch-scoped roles via a custom JWT claim transformer — because every service had its own opinion on whether the role is `BranchAgent`, `branch_agent`, or `agent`. Now they all agree.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:00695C,100:26A69A&height=50&text=Real-time%20Stack&fontSize=18&fontColor=ffffff&fontAlignY=60" alt="" />
+
+SignalR chat over a Redis backplane plus an FCM token registry that actually deactivates dead tokens instead of pretending. Push notifications carry `entityType`/`entityId`/`deepLink` so taps land on the right screen.
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:BF360C,100:FF7043&height=50&text=Live%20Agent%20Ops&fontSize=18&fontColor=ffffff&fontAlignY=60" alt="" />
+
+GPS-verified visit logs (because *"I was there, trust me"* doesn't pass code review), offline-buffered location batch sync, and a 7-stage CRM lead pipeline that refuses to let you skip ahead just because the deal feels hot.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:DD0031,100:F06292&height=50&text=Three%20Frontends&fontSize=18&fontColor=ffffff&fontAlignY=60" alt="" />
+
+Angular admin & public web, Flutter agent mobile. They all complain to the same auth service in the same way, which is the whole point of a gateway.
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:37474F,100:78909C&height=50&text=Audit%20Everything&fontSize=18&fontColor=ffffff&fontAlignY=60" alt="" />
+
+Soft-delete + audit trail across every entity, jsonb columns for flexible per-record metadata, Hangfire for the background work, Docker for the whole circus. Built like it'll be inspected, because someday it might be.
+
+</td>
+</tr>
+</table>
 
 ---
 
-### Status Report
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:212121,100:455A64&height=80&text=Status%20Report&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Status Report" />
+</div>
 
 ```text
 ═══════════════════════════════ status ═══════════════════════════════
@@ -208,7 +275,9 @@ flowchart TB
 
 ---
 
-### Tech Stack
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:283593,100:5C6BC0&height=80&text=Tech%20Stack&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Tech Stack" />
+</div>
 
 <div align="center">
 
@@ -252,34 +321,107 @@ flowchart TB
 
 ---
 
-### Public Repos · Fundamentals
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1A237E,100:5C6BC0&height=80&text=Public%20Repos&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Public Repos" />
+  <br/>
+  <em>Smaller projects that show how I think about backend fundamentals.</em>
+</div>
 
-- **[CQRSOrderManagement](https://github.com/iMu21/CQRSOrderManagement)** — order pipeline with a hand-rolled CQRS dispatcher, no MediatR.
-- **[AuthShield](https://github.com/iMu21/AuthShield)** — clean-architecture .NET 8 starter for JWT auth & identity, MediatR-based.
-- **[ApiChangeTracker](https://github.com/iMu21/ApiChangeTracker)** — hashes a Swagger doc on a schedule, snapshots only when the API surface changes.
-- **[Competitive-Programming](https://github.com/iMu21/Competitive-Programming)** — 1,500+ problems across LeetCode and Codeforces.
-- **[CLiCSForecast](https://github.com/iMu21/CLiCSForecast)** — applying data analysis & ML over CLiCS data (Jupyter).
-- **[ExpenseTracker](https://github.com/iMu21/ExpenseTracker)** — personal-finance app on ASP.NET Core MVC + EF Core + Identity.
+<br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[CQRSOrderManagement](https://github.com/iMu21/CQRSOrderManagement)**
+Order pipeline with a hand-rolled CQRS dispatcher — no MediatR, on purpose.
+
+</td>
+<td width="50%" valign="top">
+
+**[AuthShield](https://github.com/iMu21/AuthShield)**
+Clean-architecture .NET 8 starter for JWT auth & identity, MediatR-based.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[ApiChangeTracker](https://github.com/iMu21/ApiChangeTracker)**
+Hashes a Swagger doc on a schedule, snapshots only when the API surface changes.
+
+</td>
+<td width="50%" valign="top">
+
+**[Competitive-Programming](https://github.com/iMu21/Competitive-Programming)**
+1,500+ problems across LeetCode and Codeforces.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[CLiCSForecast](https://github.com/iMu21/CLiCSForecast)**
+Applying data analysis & ML over CLiCS data, in Jupyter.
+
+</td>
+<td width="50%" valign="top">
+
+**[ExpenseTracker](https://github.com/iMu21/ExpenseTracker)**
+Personal-finance app on ASP.NET Core MVC + EF Core + Identity.
+
+</td>
+</tr>
+</table>
 
 ---
 
-### Highlights
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:E65100,100:FFB300&height=80&text=Highlights&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Highlights" />
+</div>
 
-> **Champion** — PSTU Intra University Programming Contest, Season 2.
->
-> **1,500+** algorithmic problems solved across LeetCode and Codeforces.
->
-> **Three-domain experience inside a single role** — insurance · law enforcement · logistics, on the same .NET stack.
+<br/>
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### Champion
+PSTU Intra University<br/>Programming Contest · S2
+
+</td>
+<td width="34%" align="center" valign="top">
+
+### 1,500+
+problems solved on<br/>LeetCode & Codeforces
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 3 Domains
+insurance · law enforcement<br/>· logistics — same .NET stack
+
+</td>
+</tr>
+</table>
 
 ---
 
-### Off the Keyboard
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:AD1457,100:F06292&height=80&text=Off%20the%20Keyboard&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Off the Keyboard" />
+</div>
 
-When the IDE is closed: I'm probably **playing video games**, **looking after my birds**, or grinding another Codeforces round. I think hobbies are part of the engineer — pattern-spotting in a competitive programming problem and pattern-spotting in your aviary are not as different as they look.
+<br/>
+
+When the IDE is closed: I'm probably **playing video games**, **looking after my birds**, or grinding another Codeforces round. Hobbies are part of the engineer — pattern-spotting in a competitive-programming problem and pattern-spotting in your aviary aren't as different as they look.
 
 ---
 
-### Education
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:1B5E20,100:66BB6A&height=80&text=Education&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Education" />
+</div>
+
+<br/>
 
 **B.Sc. in Computer Science & Engineering** — Patuakhali Science & Technology University · 2017 – 2022.
 
@@ -287,14 +429,16 @@ When the IDE is closed: I'm probably **playing video games**, **looking after my
 
 <div align="center">
 
-### Connect
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:512BD4,100:DD0031&height=80&text=Connect&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=58" alt="Connect" />
+
+<br/>
 
 <a href="https://github.com/iMu21"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/md-imran-khan-b9450b194/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:mdimrankhan.imu21@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
-<br/>
+<br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:DD0031,100:512BD4&height=100&section=footer" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:DD0031,100:512BD4&height=120&section=footer" alt="footer" />
 
 </div>
